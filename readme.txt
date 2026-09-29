@@ -4,7 +4,7 @@ Tags: events, calendar, chamber of commerce, schema, seo
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,7 @@ Most embeddable calendars load events in the visitor's browser, which search eng
 * Separate canonical URLs and titles for each month, and `noindex` for single-day views. Works alongside Yoast SEO, Rank Math and All in One SEO.
 * API responses are cached, and the last good result is kept as a fallback if the API is unavailable.
 * Themes can override the templates.
+* `/llms.txt` and `/llms-full.txt` list upcoming events for AI assistants.
 
 **Installation**
 
@@ -90,6 +91,10 @@ Yes. Any builder that can render a shortcode will work.
 2. CN Events settings page.
 
 == Changelog ==
+
+= 1.1.0 =
+* New: /llms.txt and /llms-full.txt list upcoming events for AI assistants (shared with the Chamber Nation Member Directory plugin).
+* Rewrite rules refresh automatically after updates.
 
 = 1.0.0 =
 * Initial release.

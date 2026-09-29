@@ -10,6 +10,8 @@ defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
 delete_option( 'cnec_settings' );
 delete_option( 'cnec_cache_version' );
 delete_transient( 'cnec_github_release' );
+delete_transient( 'cnec_events_page' );
+delete_option( 'cnec_rules_version' );
 
 global $wpdb;
 // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- One-time cleanup of this plugin's transients.

@@ -31,6 +31,7 @@ The plugin checks this repository's releases about twice a day. New versions sho
 - schema.org `Event` JSON-LD for every listed event: dates with the correct timezone offset, place, address and coordinates, organizer, images, registration offer, and cancelled status.
 - Its own canonical URL and title for each month, and `noindex` on single-day views. Works with Yoast SEO, Rank Math and All in One SEO.
 - Cached API responses, with the last good result kept as a fallback if the API is down.
+- `/llms.txt` and `/llms-full.txt` for AI assistants, listing upcoming events. Shared with the [Member Directory](https://github.com/iamseventhpro/chamber-nation-member-directory) plugin.
 
 ## Shortcode options
 
